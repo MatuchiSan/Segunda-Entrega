@@ -1,10 +1,11 @@
+//funcion creadorar de habitaciones para un hotel
 function Habitaciones(nombre, capacidad, precio, info) {
   this.nombre = nombre;
   this.capacidad = capacidad;
   this.precio = precio;
   this.info = info;
 }
-
+//habitaciones
 const zeus = new Habitaciones(
   "ZEUS",
   "1 o 2 personas",
@@ -36,6 +37,7 @@ function mostrarHabitacion(habitacion) {
   Precio: ${habitacion.precio}\n
   Informacion: ${habitacion.info}`);
 }
+//menu de inicio para ver cada habitacion
 menu = true;
 while (menu == true) {
   let saludo;
